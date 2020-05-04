@@ -1,0 +1,186 @@
+---
+layout: post
+---
+<!-- Topbar --><nav class="topbar topbar-inverse topbar-expand-md topbar-sticky">
+    <div class="container">
+      <div class="topbar-left">
+        <button class="topbar-toggler">☰</button>
+        <a class="topbar-brand" href="index.html">
+          <img class="logo-default" src="../assets/img/logo/liderarti.png" alt="logo">
+          <img class="logo-inverse" src="../assets/img/logo/liderarti-light.png" alt="logo">
+        </a>
+      </div>
+      <div class="topbar-right">
+        <ul class="topbar-nav nav">
+          <li class="nav-item"><a class="nav-link" href="../quem-somos.html">Quem Somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="../cursos.html">Cursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="../servicos.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="../blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="../forum.html">Forum</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://loja.liderarti.com.br/liderarti/loja">Loja</a></li>
+          <li class="nav-item"><a class="nav-link" href="../contato.html">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://loja.liderarti.com.br/liderarti/login.xhtml">Login</a></li>
+        </ul>
+        <div class="d-inline-flex ml-30">
+          <a class="btn btn-sm btn-outline btn-primary hidden-sm-down" href="http://loja.liderarti.com.br/liderarti/acesso/cadastroLoja/">Cadastre-se</a>
+        </div>
+      </div>
+    </div>
+  </nav><!-- END Topbar --><!-- Header --><header class="header header-inverse h-fullscreen pb-80" style="background-image: url(../assets/img/blog-1-large.jpg);" data-overlay="8">
+    <div class="container text-center">
+      <div class="row h-full">
+        <div class="col-12 col-lg-8 offset-lg-2 align-self-center">
+          <h1 class="display-4 hidden-sm-down">Admirável Mundo Novo</h1>
+          <h1 class="hidden-md-up">Admirável Mundo Novo</h1>
+          <br><br>
+          <p><span class="opacity-70 mr-8">Por:</span> <a class="text-white" href="#">Antônio Carlos</a></p>
+          <p><img class="rounded-circle w-40" src="../assets/img/avatar/antonio-carlos.jpg" alt="Antônio Carlos"></p>
+        </div>
+        <div class="col-12 align-self-end text-center">
+          <a class="scroll-down-1 scroll-down-inverse" href="#section-content" data-scrollto="section-content"><span></span></a>
+        </div>
+      </div>
+    </div>
+  </header><!-- END Header --><!-- Main container --><main class="main-content">
+    <div class="section" id="section-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8 offset-lg-2">
+            <p>Olá pessoal,</p>
+            <p>Hoje gostaria de escrever sobre algo que me deixou muito feliz neste ano que acabou de se encerrar. Me lembro com detalhes da primeira vez que vi um servidor na minha vida, muitos anos atrás meu chefe à época me levou ao DataCenter de
+              um cliente e eu fiquei impressionado com tantos computadores e tantos recursos tecnológicos. Naquele dia passei horas pensando no tamanho do impacto daquilo e quantos clientes haviam colocado seus recursos, suas tecnologias ali.</p>
+            <p>O tempo passou (e nem foi tanto tempo assim) e, quando me toquei, era minha equipe quem administrava aquilo tudo. Foi uma sensação fantástica pensar que eu, um profissional da área de infraestrutura, sustentava nada mais nada menos do
+              que o negócio do meu cliente. Diante de toda aquela complexidade e todas as ferramentas de gerenciamento, eu achava aquilo uma maluquice. Pensei: como eu poderia lembrar de tudo aquilo? Consoles e mais consoles, serviços e mais
+              serviços. Administrar uma rede daquelas era assustador!</p>
+            <p>Eu sempre pensei que a área de TI fosse igual a outras profissões, mas no modelo de décadas atrás. Sim, porque no passado, médico era médico. Cuidava de tudo. Advogado era advogado e pegava qualquer tipo de causa.</p>
+            <p>Era assim que eu me sentia, pois eu tinha de cuidar de console de Active Directory, DNS, DHCP, Wins (extinto), Logs, Gerenciamento do Computador, Windows Explorer, painel de Controle, ferramentas administrativas e outros tantos
+              consoles para gerenciamento de um servidor. Isso deixava qualquer um maluco. Mas, felizmente, no final das contas sobrevivemos.</p>
+            <p>Bem, estou falando isso porque em meados de 2018 a Microsoft anunciou, e lançou, o Windows Server 2019, um console de gerenciamento de tudo dentro de um ambiente de DataCenter. Esse console se chama “Admin Center”.</p>
+            <p>Basicamente, o Admin Center é uma interface de gerenciamento que consegue englobar qualquer console de gerenciamento, desde os mais tradicionais que eram utilizados em ambientes on-premises, quanto consoles de Firewall de terceiros,
+              de máquinas e ambientes em nuvem, servidores em outros sites e outras estruturas de redes. Além disso, vale mencionar que grandes fabricantes de ferramentas de TI estão desenvolvendo APIs específicas para que o Admin Center consiga
+              gerenciar seus serviços e ambientes através dessa interface.</p>
+            <p>Em breve postaremos aqui no blog um vídeo onde mostraremos essa funcionalidade de gerenciamento de vários ambientes. Estou ansioso para mostrar tudo isso para vocês.</p>
+            <p>Fiquem por dentro de todas as postagens e novidades aqui no blog, pois a Liderarti sempre trará novidades e dicas por aqui.</p>
+
+            <div class="gap-multiline-items-1 mt-30">
+              <strong>Tags: </strong>
+              <a class="badge badge-pill badge-default" href="#">Gerenciamento</a>
+              <a class="badge badge-pill badge-default" href="#">Data Center</a>
+              <a class="badge badge-pill badge-default" href="#">Active Directory</a>
+              <a class="badge badge-pill badge-default" href="#">Microsoft</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-50">
+          <div class="col-12 col-md-12 text-center">
+            <a href="../blog.html" class="btn btn-primary btn-xs">Voltar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Comments
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <!-- <div class="section bt-1 bg-grey">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 col-lg-8 offset-lg-2">
+
+            <div class="media-list">
+
+              <div class="media">
+                <img class="rounded-circle w-40" src="assets/img/avatar/1.jpg" alt="...">
+
+                <div class="media-body">
+                  <p class="fs-14">
+                    <strong>Maryam Amiri</strong>
+                    <time class="ml-16 opacity-70 fs-12" datetime="2017-07-14 20:00">24 min ago</time>
+                  </p>
+                  <p class="fs-13">Efficiently synthesize high standards in processes rather than premier models. Continually coordinate parallel schemas through turnkey deliverables. Compellingly expedite viral infrastructures.</p>
+                </div>
+              </div>
+
+
+
+              <div class="media">
+                <img class="rounded-circle w-40" src="assets/img/avatar/2.jpg" alt="...">
+
+                <div class="media-body">
+                  <p class="fs-14">
+                    <strong>Hossein Shams</strong>
+                    <time class="ml-16 opacity-70 fs-12" datetime="2017-07-14 20:00">6 hours ago</time>
+                  </p>
+                  <p class="fs-13">Energistically iterate cross functional best practices after.</p>
+                </div>
+              </div>
+
+
+
+              <div class="media">
+                <img class="rounded-circle w-40" src="assets/img/avatar/3.jpg" alt="...">
+
+                <div class="media-body">
+                  <p class="fs-14">
+                    <strong>Sarah Hanks</strong>
+                    <time class="ml-16 opacity-70 fs-12" datetime="2017-07-14 20:00">Yesterday</time>
+                  </p>
+                  <p class="fs-13">Appropriately streamline backward-compatible ideas through high standards in benefits. Intrinsicly communicate granular.</p>
+                </div>
+              </div>
+
+            </div>
+
+
+            <hr>
+
+
+            <form action="#" method="POST">
+
+              <div class="row">
+                <div class="form-group col-12 col-md-6">
+                  <input class="form-control" type="text" placeholder="Name">
+                </div>
+
+                <div class="form-group col-12 col-md-6">
+                  <input class="form-control" type="text" placeholder="Email">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Comment" rows="4"></textarea>
+              </div>
+
+              <button class="btn btn-primary btn-block" type="submit">Submit your comment</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div> -->
+
+  </main><!-- END Main container --><!-- Footer --><footer class="site-footer">
+    <div class="container">
+      <div class="row gap-y">
+        <div class="col-md-4">
+          <p class="py-4">© 2019 Liderarti. Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="social social-boxed social-rounded social-colored text-center">
+            <a class="social-facebook" href="https://www.facebook.com/Liderarti-313495102600847/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="social-twitter" href="https://twitter.com/liderarti" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="social-instagram" href="https://www.instagram.com/liderartisolucoes" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a class="social-linkedin" href="https://www.linkedin.com/company/liderarti/about/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="social-youtube" href="https://www.youtube.com/channel/UCzlDDvoRdgtq8zSTeJrMZJg?view_as=subscriber" target="_blank"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-right">
+          <a href="#">Políticas de Privacidade</a> | <a href="#">Termo de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer><!-- END Footer --><!-- Scripts --><script src="assets/js/core.min.js"></script><script src="assets/js/thesaas.min.js"></script><script src="assets/js/script.js"></script>
