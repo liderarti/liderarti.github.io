@@ -21,8 +21,10 @@ baseurl: "https://liderarti.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title/
 twitter_username: liderarti
-github_username:  liderarti
+github_username:  eleucarlos
+github: "liderarti/"
 show_excerpts: true
+assets_path: "/assets"
 
 # Build settings
 markdown: kramdown
