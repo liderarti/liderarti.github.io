@@ -46,7 +46,7 @@ layout: post
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-8 offset-lg-2">
-            <p>Olá pessoal,</p>
+            <p>Olá pessoal, tudo bem?</p>
             <p>Hoje gostaria de escrever sobre algo que me deixou muito feliz neste ano que acabou de se encerrar. Me lembro com detalhes da primeira vez que vi um servidor na minha vida, muitos anos atrás meu chefe à época me levou ao DataCenter de
               um cliente e eu fiquei impressionado com tantos computadores e tantos recursos tecnológicos. Naquele dia passei horas pensando no tamanho do impacto daquilo e quantos clientes haviam colocado seus recursos, suas tecnologias ali.</p>
             <p>O tempo passou (e nem foi tanto tempo assim) e, quando me toquei, era minha equipe quem administrava aquilo tudo. Foi uma sensação fantástica pensar que eu, um profissional da área de infraestrutura, sustentava nada mais nada menos do
