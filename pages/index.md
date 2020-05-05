@@ -5,7 +5,7 @@ toc: false
 home_btn: true
 btn_text: true
 footer: true
-title: "InfraTips"
+title: ""
 author: "Eleu Carlos"
 encrypted_text: true
 permalink: /
