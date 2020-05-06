@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <title>Liderarti | Serviços</title>
+  <title>Liderarti</title>
 
   <!-- Styles -->
   <link href="assets/css/core.min.css" rel="stylesheet">
@@ -33,6 +33,13 @@
   <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
+  <!--  Open Graph Tags -->
+  <meta property="og:title" content="Liderarti">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131756627-1"></script>
   <script>
@@ -54,7 +61,7 @@
     <div class="container">
       <div class="topbar-left">
         <button class="topbar-toggler">&#9776;</button>
-        <a class="topbar-brand" href="servicos.html">
+        <a class="topbar-brand" href="index.html">
           <img class="logo-default" src="assets/img/logo/liderarti.png" alt="logo">
           <img class="logo-inverse" src="assets/img/logo/liderarti-light.png" alt="logo">
         </a>
@@ -81,42 +88,56 @@
   <!-- END Topbar -->
 
   <!-- Header -->
-  <header class="header header-inverse" style="background-image: linear-gradient(to bottom, #152c49 0%, #2b4a74 100%);">
+  <!--<header class="header fadeout header-inverse pb-0 h-fullscreen" style="background-image: linear-gradient(to bottom, #152c49 0%, #2b4a74 100%);">-->
+    <header class="header header-inverse" style="background-image: linear-gradient(to bottom, #152c49 0%, #2b4a74 100%);">
     <canvas class="constellation"></canvas>
     <div class="container text-center">
       <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-          <h1>Serviços</h1>
-          <p class="fs-20 opacity-70">Consultorias e serviços especializados em infraestrutura</p>
+        <!--<div class="col-12 text-center align-self-center">-->
+          <div class="col-12 col-lg-8 offset-lg-2">
+          <h1 class="fw-600 lh-15 hidden-sm-down">Criado para <span class="text-primary" data-type="Estudantes, Profissionais, Empreendedores"></span></h1>
+          <!--<h1 class="fs-35 fw-600 lh-15 hidden-md-up">Criado para<br><span class="text-primary" data-type="WebApps, Startups, Developers, Entrepreneurs, SaaS"></span></h1>-->
+          <!--<br>-->
+          <p class="fs-20 hidden-sm-down"><strong>Liderarti</strong> um novo conceito em Tecnologia da Informação</p>
+          <!--<p class="fs-16 hidden-md-up"><strong>Liderarti</strong> um novo conceito em Tecnologia da Informação</p>-->
+          <!--<br>
+          <hr class="w-60 hidden-sm-down">
+          <br>
+          <a class="btn btn-xl btn-round btn-primary fs-20 fw-500 w-370 shadow-3 hidden-sm-down" href="servicos.html">Migre para o Office 365</a>
+          <a class="btn btn-lg btn-round btn-primary w-250 shadow-3 hidden-md-up" href="servicos.html">Migre para o Office 365</a>
         </div>
-      </div>
+        <div class="col-12 align-self-end text-center pb-70">
+          <a class="scroll-down-2 scroll-down-inverse" href="#" data-scrollto="section-demo"><span></span></a>
+        </div>
+      </div>-->
     </div>
   </header>
   <!-- END Header -->
 
   <!-- Main container -->
   <main class="main-content">
-    <!-- ****** Sessão: Serviços ****** -->
-    <section id="servicos" class="section bb-11 pb-0 bg-gray">
+
+    <!-- ****** Sessão: Cursos ****** -->
+    <section id="cursos" class="section bb-11 pb-0 bg-gray">
       <div class="container">
         <header class="section-header">
           <h2>Destaques</h2>
-          <hr>
-          <!--<p class="lead">Crie seu ritmo e estude em qualquer lugar</p>-->
+          <!--<hr>
+          <p class="lead">Crie seu ritmo e estude em qualquer lugar</p>-->
         </header>
         <div class="text-center">
           <ul class="nav nav-outline nav-round">
             <li class="nav-item w-160">
-              <a class="nav-link" data-toggle="tab" href="#consultoria-ref">Consultoria</a>
+              <a class="nav-link" data-toggle="tab" href="#cursos-basicos">Cursos Básicos</a>
             </li>
             <li class="nav-item w-160">
-              <a class="nav-link" data-toggle="tab" href="#nuvem-ref">Migração para Nuvem</a>
+              <a class="nav-link" data-toggle="tab" href="#cursos-tecnicos">Cursos Técnicos</a>
             </li>
             <!-- <li class="nav-item w-215">
               <a class="nav-link" data-toggle="tab" href="#cursos-idade">Cursos p/ Melhor Idade</a>
             </li> -->
             <li class="nav-item w-240 hidden-md-down">
-              <a class="nav-link active" data-toggle="tab" href="#devops-rf">DevOps</a>
+              <a class="nav-link active" data-toggle="tab" href="#preparatorios">Preparatórios p/ Certificação</a>
             </li>
             <!-- <li class="nav-item w-160">
               <a class="nav-link" data-toggle="tab" href="#habilidades">Habilidades</a>
@@ -125,14 +146,14 @@
         </div>
         <br><br>
         <div class="tab-content text-center" data-aos="fade-in">
-          <div class="tab-pane fade" id="consultoria-ref">
+          <div class="tab-pane fade" id="cursos-basicos">
             <div class="row gap-y align-items-center">
               <div class="col-md-3">
                 <div class="card mb-3">
                   <img class="card-img-top" src="assets/img/placeimg1.jpg" alt="Card image cap">
                   <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">Consultoria em infraesturura de TI</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>-->
+                    <h5 class="px-3 pt-3 m-0 fs-18">Aprenda tarefas básicas no computador</h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
                     <!-- <p class="card-text text-center m-0">
                       <small class="text-muted"><s>De R$ 200,00</s></small>
                     </p>
@@ -150,8 +171,8 @@
                 <div class="card mb-3">
                   <img class="card-img-top" src="assets/img/cursos/001.jpg" alt="Card image cap">
                   <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">Soluções Microsoft</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>-->
+                    <h5 class="px-3 pt-3 m-0 fs-18">Cursos de computação em nuvem</h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
                     <!-- <p class="card-text text-center m-0">
                       <small class="text-muted"><s>De R$ 200,00</s></small>
                     </p>
@@ -169,32 +190,8 @@
                 <div class="card mb-3">
                   <img class="card-img-top" src="assets/img/cursos/002.jpg" alt="Card image cap">
                   <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">Soluções Opensource</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>-->
-                    <!-- <p class="card-text text-center m-0">
-                      <small class="text-muted"><s>De R$ 200,00</s></small>
-                    </p>
-                    <p class="card-text text-center">
-                      <small class="text-muted fs-13"><strong class="fc-primary">Por apenas R$ 100,00</strong></small>
-                    </p> -->
-                    <p class="card-text text-center mb-3">
-                      <!-- <a href="#" class="btn btn-primary btn-xs">Comprar</a> -->
-                      <a href="#" class="btn btn-default btn-xs">Detalhes</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-pane fade" id="nuvem-ref">
-            <div class="row gap-y align-items-center">
-              <div class="col-md-3">
-                <div class="card mb-3">
-                  <img class="card-img-top" src="assets/img/placeimg1.jpg" alt="Card image cap">
-                  <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">Migração para nuvem</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>-->
+                    <h5 class="px-3 pt-3 m-0 fs-18">Office 365 para usuários finais</h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
                     <!-- <p class="card-text text-center m-0">
                       <small class="text-muted"><s>De R$ 200,00</s></small>
                     </p>
@@ -210,10 +207,29 @@
               </div>
               <div class="col-md-3">
                 <div class="card mb-3">
-                  <img class="card-img-top" src="assets/img/placeimg2.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="assets/img/cursos/003.jpg" alt="Card image cap">
                   <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">Migração para Nuvem 2</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>-->
+                    <h5 class="px-3 pt-3 m-0 fs-18">Windows 10 para usuários finais</h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
+                    <!-- <p class="card-text text-center m-0">
+                      <small class="text-muted"><s>De R$ 200,00</s></small>
+                    </p>
+                    <p class="card-text text-center">
+                      <small class="text-muted fs-13"><strong class="fc-primary">Por apenas R$ 100,00</strong></small>
+                    </p> -->
+                    <p class="card-text text-center mb-3">
+                      <!-- <a href="#" class="btn btn-primary btn-xs">Comprar</a> -->
+                      <a href="#" class="btn btn-default btn-xs">Detalhes</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="assets/img/cursos/004.jpg" alt="Card image cap">
+                  <div class="card-body border-y-2">
+                    <h5 class="px-3 pt-3 m-0 fs-18">Aprenda a armazenar seus dados</h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
                     <!-- <p class="card-text text-center m-0">
                       <small class="text-muted"><s>De R$ 200,00</s></small>
                     </p>
@@ -231,8 +247,8 @@
                 <div class="card mb-3">
                   <img class="card-img-top" src="assets/img/placeimg3.jpg" alt="Card image cap">
                   <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">Migração para Nuvem 3</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>-->
+                    <h5 class="px-3 pt-3 m-0 fs-18">Curso do pacote Office</h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
                     <!-- <p class="card-text text-center m-0">
                       <small class="text-muted"><s>De R$ 200,00</s></small>
                     </p>
@@ -249,14 +265,14 @@
             </div>
           </div>
 
-          <div class="tab-pane fade" id="devops-ref">
+          <div class="tab-pane fade" id="cursos-tecnicos">
             <div class="row gap-y align-items-center">
               <div class="col-md-3">
                 <div class="card mb-3">
                   <img class="card-img-top" src="assets/img/placeimg1.jpg" alt="Card image cap">
                   <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">Pipelines de construção e entrega</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutores: Antônio Carlos, e Aluísio Ferreira</p>-->
+                    <h5 class="px-3 pt-3 m-0 fs-18">Do Básico ao Avançado - O Curso Completo </h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
                     <!-- <p class="card-text text-center m-0">
                       <small class="text-muted"><s>De R$ 200,00</s></small>
                     </p>
@@ -274,8 +290,70 @@
                 <div class="card mb-3">
                   <img class="card-img-top" src="assets/img/placeimg2.jpg" alt="Card image cap">
                   <div class="card-body border-y-2">
-                    <h5 class="px-3 pt-3 m-0 fs-18">IaC</h5>
-                    <!--<p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>-->
+                    <h5 class="px-3 pt-3 m-0 fs-18">Do Básico ao Avançado - O Curso Completo </h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
+                    <!-- <p class="card-text text-center m-0">
+                      <small class="text-muted"><s>De R$ 200,00</s></small>
+                    </p>
+                    <p class="card-text text-center">
+                      <small class="text-muted fs-13"><strong class="fc-primary">Por apenas R$ 100,00</strong></small>
+                    </p> -->
+                    <p class="card-text text-center mb-3">
+                      <!-- <a href="#" class="btn btn-primary btn-xs">Comprar</a> -->
+                      <a href="#" class="btn btn-default btn-xs">Detalhes</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="assets/img/placeimg3.jpg" alt="Card image cap">
+                  <div class="card-body border-y-2">
+                    <h5 class="px-3 pt-3 m-0 fs-18">Do Básico ao Avançado - O Curso Completo </h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
+                    <!-- <p class="card-text text-center m-0">
+                      <small class="text-muted"><s>De R$ 200,00</s></small>
+                    </p>
+                    <p class="card-text text-center">
+                      <small class="text-muted fs-13"><strong class="fc-primary">Por apenas R$ 100,00</strong></small>
+                    </p> -->
+                    <p class="card-text text-center mb-3">
+                      <!-- <a href="#" class="btn btn-primary btn-xs">Comprar</a> -->
+                      <a href="#" class="btn btn-default btn-xs">Detalhes</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="cursos-idade">
+            <div class="row gap-y align-items-center">
+              <div class="col-md-3">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="assets/img/placeimg1.jpg" alt="Card image cap">
+                  <div class="card-body border-y-2">
+                    <h5 class="px-3 pt-3 m-0 fs-18">Treinamento para certificação Windows 10</h5>
+                    <p class="card-text py-3 m-0">Instrutores: Antônio Carlos, e Aluísio Ferreira</p>
+                    <!-- <p class="card-text text-center m-0">
+                      <small class="text-muted"><s>De R$ 200,00</s></small>
+                    </p>
+                    <p class="card-text text-center">
+                      <small class="text-muted fs-13"><strong class="fc-primary">Por apenas R$ 100,00</strong></small>
+                    </p> -->
+                    <p class="card-text text-center mb-3">
+                      <!-- <a href="#" class="btn btn-primary btn-xs">Comprar</a> -->
+                      <a href="#" class="btn btn-default btn-xs">Detalhes</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card mb-3">
+                  <img class="card-img-top" src="assets/img/placeimg2.jpg" alt="Card image cap">
+                  <div class="card-body border-y-2">
+                    <h5 class="px-3 pt-3 m-0 fs-18">Do Básico ao Avançado - O Curso Completo </h5>
+                    <p class="card-text py-3 m-0">Instrutor: Antônio Carlos</p>
                     <!-- <p class="card-text text-center m-0">
                       <small class="text-muted"><s>De R$ 200,00</s></small>
                     </p>
@@ -389,6 +467,222 @@
         </div>
       </div>
     </section>
+
+    <section class="section section-inverse py-150" style="background-image: url(assets/img/bg-laptop.jpg); background-size: cover;" data-overlay="7">
+      <div class="container">
+
+        <div class="section-dialog text-center" data-aos="zoom-in" data-aos-duration="1000">
+          <p><img src="assets/img/selo-mcsa.png" alt="MCSA"></p>
+          <h2>Oferta especial e limitada</h2>
+          <p>Treinamento técnico para certificação MCSA Windows 10 (exames 70-697 e 70-698)</p>
+          <p>Seja um especialista em Windows 10 e saia na frente no mercado de trabalho com a certificação MCSA Windows 10.</p>
+
+          <hr class="w-50">
+
+          <div class="text-center gap-multiline-items-2 my-30">
+            <a href="http://loja.liderarti.com.br/liderarti/loja/cursoLoja.xhtml?id=2" class="btn btn-primary img-fadein">Eu quero saber mais!</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ****** Sessão: Serviços ****** -->
+    <!-- <section id="servicos" class="section bg-gray">
+      <div class="container">
+        <header class="section-header">
+          <h2>Serviços</h2>
+          <hr>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit nam quis eros ut neque vulputate convallis sed id nulla.</p>
+        </header>
+      </div>
+    </section> -->
+
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Features
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <!-- <section class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Lorem ipsum</h2>
+          <hr>
+          <p class="lead">Cras imperdiet pulvinar purus, quis pharetra nisl ultrices at. Ut rhoncus pharetra sagittis.</p>
+        </header>
+
+        <div class="row gap-y">
+
+          <div class="col-12 offset-md-2 col-md-8 mb-30">
+            <img src="assets/img/feature-tablet.png" alt="..." data-aos="fade-up" data-aos-duration="2000">
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-4 text-center">
+            <i class="fa fa-tv fs-25 mb-3 text-secondary"></i>
+            <h6 class="fs-18 mb-3">Lorem ipsum</h6>
+            <p class="fs-14">Nullam ut ex eget eros vestibulum lobortis.</p>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-xl-4 text-center">
+            <i class="fa fa-wrench fs-25 mb-3 text-secondary"></i>
+            <h6 class="fs-18 mb-3">Lorem ipsum</h6>
+            <p class="fs-14">Nullam ut ex eget eros vestibulum lobortis.</p>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-xl-4 text-center">
+            <i class="fa fa-cubes fs-25 mb-3 text-secondary"></i>
+            <h6 class="fs-18 mb-3">Lorem ipsum</h6>
+            <p class="fs-14">Nullam ut ex eget eros vestibulum lobortis.</p>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-xl-4 text-center">
+            <i class="fa fa-code fs-25 mb-3 text-secondary"></i>
+            <h6 class="fs-18 mb-3">Lorem ipsum</h6>
+            <p class="fs-14">Nullam ut ex eget eros vestibulum lobortis.</p>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-xl-4 text-center">
+            <i class="fa fa-file-text-o fs-25 mb-3 text-secondary"></i>
+            <h6 class="fs-18 mb-3">Lorem ipsum</h6>
+            <p class="fs-14">Nullam ut ex eget eros vestibulum lobortis.</p>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-xl-4 text-center">
+            <i class="fa fa-download fs-25 mb-3 text-secondary"></i>
+            <h6 class="fs-18 mb-3">Lorem ipsum</h6>
+            <p class="fs-14">Nullam ut ex eget eros vestibulum lobortis.</p>
+          </div>
+
+
+        </div>
+      </div>
+    </section> -->
+
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Newsletters
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <!-- <section class="section section-inverse py-40" style="background-color: #8ea6e6">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+          <div class="col-12 col-md-9 text-center text-md-left">
+            <h4 class="fw-300 mb-0">Lorem ipsum?</h4>
+          </div>
+
+          <div class="col-12 col-md-3 text-center text-md-right">
+            <a class="btn btn-lg btn-round btn-white" href="#">lorem ipsum...</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Perfect for Your Business
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <!-- <section class="section overflow-hidden py-120 hidden-md-down">
+      <div class="container-wide">
+        <div class="row">
+          <div class="offset-1 col-10 col-lg-6 offset-lg-1 text-center text-lg-left">
+            <h2>Lorem ipsum</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat tristique erat, vitae bibendum mauris lobortis in. Fusce vitae facilisis arcu.</p>
+
+            <br>
+
+            <div class="row gap-y">
+
+              <div class="col-12 col-md-6">
+                <i class="fa fa-tv text-primary fs-25 mb-3"></i>
+                <h6 class="text-uppercase mb-3">Lorem ipsum</h6>
+                <p class="fs-14">Consectetur adipiscing elit. Vivamus volutpat tristique erat.</p>
+              </div>
+
+
+              <div class="col-12 col-md-6">
+                <i class="fa fa-wrench text-primary fs-25 mb-3"></i>
+                <h6 class="text-uppercase mb-3">Lorem ipsum</h6>
+                <p class="fs-14">Consectetur adipiscing elit. Vivamus volutpat tristique erat.</p>
+              </div>
+
+
+              <div class="col-12 col-md-6">
+                <i class="fa fa-code text-primary fs-25 mb-3"></i>
+                <h6 class="text-uppercase mb-3">Lorem ipsum</h6>
+                <p class="fs-14">Consectetur adipiscing elit. Vivamus volutpat tristique erat.</p>
+              </div>
+
+
+              <div class="col-12 col-md-6">
+                <i class="fa fa-file-text-o text-primary fs-25 mb-3"></i>
+                <h6 class="text-uppercase mb-3">Lorem ipsum</h6>
+                <p class="fs-14">Consectetur adipiscing elit. Vivamus volutpat tristique erat.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-5 align-self-center">
+            <img class="shadow-3 mt-40" src="assets/img/feature-tablet.png" alt="..." data-aos="slide-left" data-aos-duration="1500">
+          </div>
+
+
+        </div>
+      </div>
+    </section> -->
+
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Unlimited Layout Option
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <!-- <section class="section overflow-hidden py-150 bg-gray hidden-md-down">
+      <div class="container-wide">
+        <div class="row gap-y align-items-center">
+
+          <div class="col-12 col-lg-6 pl-50 pr-80 order-md-last">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p class="lead">Sed id fringilla purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consequat, diam vel volutpat tempor, tellus libero hendrerit.</p>
+
+            <br>
+
+            <p>
+              <i class="ti-check text-success mr-8"></i>
+              <span class="fs-14">Aliquam erat volutpat cras nec malesuada mauris.</span>
+            </p>
+
+            <p>
+              <i class="ti-check text-success mr-8"></i>
+              <span class="fs-14">Aliquam erat volutpat cras nec malesuada mauris.</span>
+            </p>
+
+            <p>
+              <i class="ti-check text-success mr-8"></i>
+              <span class="fs-14">Aliquam erat volutpat cras nec malesuada mauris.</span>
+            </p>
+
+            <p>
+              <i class="ti-check text-success mr-8"></i>
+              <span class="fs-14">Aliquam erat volutpat cras nec malesuada mauris.</span>
+            </p>
+          </div>
+
+          <div class="col-lg-6 align-self-center order-md-first">
+            <img class="shadow-3" src="assets/img/feature-tablet.png" alt="..." data-aos="slide-right" data-aos-duration="1500">
+          </div>
+
+        </div>
+      </div>
+    </section> -->
   </main>
   <!-- END Main container -->
 
@@ -438,6 +732,9 @@
     </div>
   </footer>
   <!-- END Footer -->
+
+  <!-- Scroll top -->
+  <button class="btn btn-circle btn-primary scroll-top"><i class="fa fa-angle-up"></i></button>
 
   <!-- Scripts -->
   <script src="assets/js/core.min.js"></script>
